@@ -1,0 +1,4 @@
+datasets_raw/
+datasets/
+*.csv
+.ipynb_checkpoints/
