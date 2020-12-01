@@ -1,0 +1,179 @@
+{
+  "replacements": [{
+    "pattern": "\"An organized crime syndicate was extorting mo",
+    "label": "barely-true",
+    "data": {
+      "quote": "Says he took down the mob in Northeast Ohio",
+      "context": "an appearance at The Plain Dealer",
+      "date": "September 13, 2010",
+      "categories": "Unknown",
+      "staff": "Sabrina Eaton"
+    }
+  },
+  {
+    "pattern": "I’m the only candidate for Milwaukee County e",
+    "label": "barely-true",
+    "data": {
+      "quote": "Regulations on developers have thwarted construction on county-owned land in Milwaukee’s downtown Park East corridor.",
+      "context": "a statement at a candidate forum",
+      "date": "January 21, 2011",
+      "categories": "Unknown",
+      "staff": "Dave Umhoefer"
+    }
+  },
+  {
+    "pattern": "\"Marcy Kaptur voted against a ban which would",
+    "label": "pants-fire",
+    "data": {
+      "quote": "Says Marcy Kaptur has attacked his military service and training in the Air Force, showing disrespect for veterans.",
+      "context": "a news release",
+      "date": "May 3, 2012",
+      "categories": "Unknown",
+      "staff": "Sabrina Eaton"
+    }
+  },
+  {
+    "pattern": "Gov. Scott Walker is helping pay for the crimi",
+    "label": "pants-fire",
+    "data": {
+      "quote": "Says the Wisconsin Republican Party tweeted \"Happy International Women's Day! You ladies should get paid less and not be able to make health care decisions.\"",
+      "context": "a tweet",
+      "date": "March 8, 2012",
+      "categories": "Unknown",
+      "staff": "James B. Nelson"
+    }
+  },
+  {
+    "pattern": "One of every two Wisconsin residents are \"on s",
+    "label": "barely-true",
+    "data": {
+      "quote": "Wisconsin was embroiled in a \"constitutional crisis\" brought on by the Democratic senators fleeing the state for Illinois to block Gov. Scott Walker's budget-repair bill.",
+      "context": "a statement at a news conference",
+      "date": "March 3, 2011",
+      "categories": "Unknown",
+      "staff": "James B. Nelson"
+    }
+  },
+  {
+    "pattern": "One of every two Wisconsin residents are \"on s",
+    "label": "half-true",
+    "data": {
+      "quote": "On the night of the Wisconsin state Senate vote on the budget package, \"a mob showed up and busted down the door and took over the Capitol.\"",
+      "context": "a radio interview",
+      "date": "March 10, 2011",
+      "categories": "Unknown",
+      "staff": "James B. Nelson"
+    }
+  },
+  {
+    "pattern": "Says Gov. John Kasich can remove the president",
+    "label": "half-true",
+    "data": {
+      "quote": "\"Paul Ryan got his start in politics, as a young staffer just out of college, working for then-Congressman John Kasich’s Budget Committee.\"",
+      "context": "a news release",
+      "date": "August 11, 2012",
+      "categories": "Unknown",
+      "staff": "Henry J. Gomez"
+    }
+  },
+  {
+    "pattern": "Says Jeff Stone = Scott Walker.",
+    "label": "barely-true",
+    "data": {
+      "quote": "Says Milwaukee County elected officials drive around in luxury cars \"on your dime.\"",
+      "context": "a campaign mailer",
+      "date": "February 11, 2011",
+      "categories": "Unknown",
+      "staff": "James B. Nelson"
+    }
+  },
+  {
+    "pattern": "Says Jeff Stone = Scott Walker.",
+    "label": "barely-true",
+    "data": {
+      "quote": "\"I have fought for our shared values without being an ideologue or a partisan\"",
+      "context": "a news conference announcing his candidacy for Milwaukee County executive",
+      "date": "January 4, 2011",
+      "categories": "Unknown",
+      "staff": "Dave Umhoefer"
+    }
+  },
+  {
+    "pattern": "Says Jeff Stone = Scott Walker.",
+    "label": "False",
+    "data": {
+      "quote": "Says he \"helped lead an outside audit that’ll save (Milwaukee County) taxpayers over $200 million.\"",
+      "context": "a campaign TV ad",
+      "date": "January 25, 2011",
+      "categories": "Unknown",
+      "staff": "Tom Kertscher"
+    }
+  },
+  {
+    "pattern": "Says Scott Walker \"eliminated his own office o",
+    "label": "half-true",
+    "data": {
+      "quote": "When each faced a pension funding crisis, Tom Barrett made tough choices and smart cuts while Scott Walker passed $400 million in pension debt to the next generation.",
+      "context": "a campaign TV ad",
+      "date": "September 8, 2010",
+      "categories": "Unknown",
+      "staff": "Dave Umhoefer"
+    }
+  },
+  {
+    "pattern": "Sheldon Whitehouse voted for a \"\\$525-billion t",
+    "label": "pants-fire",
+    "data": {
+      "quote": "U.S. Sen. Sheldon Whitehouse \"rewarded Wall Street executives with millions in bonuses.\"",
+      "context": "a campaign commercial",
+      "date": "September 27, 2012",
+      "categories": "Unknown",
+      "staff": "C. Eugene Emery Jr."
+    }
+  },
+  {
+    "pattern": "Sheldon Whitehouse voted for a \"\\$525-billion t",
+    "label": "mostly-true",
+    "data": {
+      "quote": "\"Thirty percent of [Sheldon Whitehouse' campaign] money is coming from special interests.\"",
+      "context": "a news conference",
+      "date": "August 7, 2012",
+      "categories": "Unknown",
+      "staff": "C. Eugene Emery Jr."
+    }
+  },
+  {
+    "pattern": "Sherrod Brown \"sent billions of our tax dollar",
+    "label": "True",
+    "data": {
+      "quote": "Sherrod Brown \"has been running for public office since Richard Nixon was president.\"",
+      "context": "a radio show",
+      "date": "November 14, 2011",
+      "categories": "Unknown",
+      "staff": "Peter Krouse"
+    }
+  },
+  {
+    "pattern": "When the Milwaukee County mental health facili",
+    "label": "half-true",
+    "data": {
+      "quote": "\"We currently have one guy who is in charge of painting the entire Milwaukee County parks system.\"",
+      "context": "a meeting with Journal Sentinel reporters and editors",
+      "date": "January 31, 2011",
+      "categories": "Unknown",
+      "staff": "Tom Kertscher"
+    }
+  },
+  {
+    "pattern": "When the Milwaukee County mental health facili",
+    "label": "False",
+    "data": {
+      "quote": "Says he \"led the effort to build a new (University of Wisconsin-Milwaukee) engineering campus in Wauwatosa.\"",
+      "context": "a campaign mailer",
+      "date": "November 2, 2010",
+      "categories": "Unknown",
+      "staff": "Tom Kertscher"
+    }
+  }]
+}
+
