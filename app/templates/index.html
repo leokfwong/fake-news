@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Fake News Detection </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Fake News Detection">
+	<meta name="keywords" content="fake, news, detection">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='icon/fake_news_detector.ico') }}"/>
+	<script src="https://kit.fontawesome.com/a93733e62b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div id='wrapper'>
+		<div id='container' class='flex-column'>
+			<div id='header' class='flex-column'>
+				<div id='title'>
+					Fake News Detector
+				</div>
+				<div id='subtitle'>
+					A Fake News detector specialized in political news.
+				</div>
+			</div>
+			<div id='content'>
+				<form id='form' class='flex-column' action="{{ url_for('predict')}}" method="post">
+					<!-- Section Top -->
+					<div id='section-top' class='flex-column'>
+						<!-- Quote -->
+						<div id='quote-row' class='item-row'>
+							<div id='quote-label' class='item-label'>
+								Quote
+							</div>
+							<div id='quote-textbox' class='item-textbox'>
+								<textarea id="quote-textbox-input" name="quote-textbox-value">{{ quote_text }}</textarea>
+							</div>
+						</div>
+					</div>
+					<!-- Section Bottom -->
+					<div id='section-bottom' class='flex-row'>
+						<!-- Section Bottom Left -->
+						<div id='section-bottom-left' class='flex-column'>
+							<!-- Author -->
+							<div id='author-row' class='item-row'>
+								<div id='author-label' class='item-label'>
+									Author
+								</div>
+								<div id='author-textbox' class='item-textbox'>
+									<input type="text" id="author-textbox-input" name="author-textbox-value">
+								</div>
+							</div>
+							<!-- Context -->
+							<div id='context-row' class='item-row'>
+								<div id='context-label' class='item-label'>
+									Context
+								</div>
+								<div id='context-textbox' class='item-textbox'>
+									<input type="text" id="context-textbox-input" name="context-textbox-value">
+								</div>
+							</div>
+							<!-- Date -->
+							<div id='date-row' class='item-row'>
+								<div id='date-label' class='item-label'>
+									Date
+								</div>
+								<div id='date-textbox' class='item-textbox'>
+									<input type="date" id="date-textbox-input" name="date-textbox-value">
+								</div>
+							</div>
+						</div>
+						<!-- Section Bottom Right -->
+						<div id='section-bottom-right' class='flex-column'>
+							<button id='detect-button' type="submit">Detect</button>
+						</div>
+					</div>
+				</form>
+				<div id='results-container'>
+					<div id="loading"><i class="fas fa-spinner"></i></div>
+					<div id='results'>
+						{% if prediction_text == "True" %}
+						<div id='results-text' class='results-true'>{{ prediction_text }}</div>
+						{% elif prediction_text == "False" %}
+						<div id='results-text' class='results-false'>{{ prediction_text }}</div>
+						{% else %}
+						HELLO
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='json/author_names.json') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+</html>

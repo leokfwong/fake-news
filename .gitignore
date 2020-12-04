@@ -1,4 +1,4 @@
-datasets_raw/
-datasets/
 *.csv
+*.ai
+*.pkl
 .ipynb_checkpoints/
