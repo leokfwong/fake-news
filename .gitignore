@@ -1,4 +1,3 @@
 *.csv
 *.ai
-*.pkl
 .ipynb_checkpoints/
